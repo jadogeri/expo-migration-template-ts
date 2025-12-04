@@ -7,7 +7,6 @@ import ParallaxScrollView from '../components/parallax-scroll-view';
 import { ThemedText } from '../components/themed-text';
 import { ThemedView } from '../components/themed-view';
 import { Link } from 'expo-router';
-import { useNavigation } from '@react-navigation/native';
 import React from 'react';
 
 export default function HomeScreen() {
@@ -27,7 +26,7 @@ export default function HomeScreen() {
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Step 1: Try it</ThemedText>
         <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
+          Edit <ThemedText type="defaultSemiBold">app/src/screens/*.tsx</ThemedText> to see changes.
           Press{' '}
           <ThemedText type="defaultSemiBold">
             {Platform.select({
