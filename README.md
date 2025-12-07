@@ -21,6 +21,8 @@ This is an expo application utilizing expo settings and default themes. but conv
 
 App is deployed to [ appetize.io](https://appetize.io/) website.
 
+## Mobile Preview
+
 Test app on the web using link below.
 
 [Link to test virtual app](https://appetize.io/app/b_crwtxey5olbqyho4huhdmpd6uq).
