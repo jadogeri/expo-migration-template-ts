@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "migration-template",
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
@@ -34,6 +34,8 @@
   "devDependencies": {
     "@react-native-community/cli": "latest",
     "@types/react": "~19.1.0",
+    "react-dom": "^19.1.0",
+    "scheduler": "^0.27.0",
     "typescript": "~5.9.2"
   },
   "private": true
